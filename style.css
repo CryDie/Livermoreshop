@@ -1,0 +1,104 @@
+/* Общие стили */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://new-science.ru/wp-content/uploads/2021/01/21455.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  /* Стили для заголовка и основного контента */
+  
+  .header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  /* Стили для разделов */
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  h1, h2 {
+    color: #fff;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Стили для кнопки "Купить" и центрирования */
+  
+  .center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .buy-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #6c5ce7; /* Фиолетовый цвет */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s; /* Анимация цвета и масштаба */
+  }
+  
+  .buy-button:hover {
+    background-color: #a29bfe; /* Фиолетовый цвет в hover состоянии */
+    transform: scale(1.05); /* Увеличение кнопки при наведении */
+  }
+  
+  /* Стили для подвала */
+  
+  .footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #777;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Адаптация для мобильных устройств */
+  
+  @media (max-width: 768px) {
+    .header {
+      padding: 30px 0;
+    }
+  
+    .main-content {
+      padding: 10px;
+    }
+  
+    .section {
+      margin-bottom: 20px;
+    }
+  
+    .center-button {
+      height: auto;
+    }
+  
+    .buy-button {
+      padding: 12px 24px;
+    }
+  }
